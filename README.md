@@ -2,14 +2,14 @@
 
 
 # API Documentation & Description
-This API is developed to fulfill submission of Learn to Create Back-End Apps for Beginner from Dicoding Platform
+This API is developed to fulfill submission of Learn to Create Back-End Apps for Beginner Course from Dicoding Platform. This API build with Javascript and HAPI as Framework
 
 
 <!-- 1. Create -->
 # 1. Create / Store Product
  
  
-### Request : 
+ Request : 
 - Method : POST
 - Endpoint : /books
 - Body Request
@@ -49,7 +49,7 @@ This API is developed to fulfill submission of Learn to Create Back-End Apps for
 <!-- 2. Read -->
 # 2. Get Books
  
-### Request : 
+Request : 
 - Method : GET
 - Endpoint : /books
 - Body Response Example
@@ -81,7 +81,7 @@ This API is developed to fulfill submission of Learn to Create Back-End Apps for
 <!-- 3. Read detail -->
 # 3. Get Book Detail
  
-### Request : 
+ Request : 
 - Method : GET
 - Endpoint : /books/{bookId}
 - Header : 
@@ -114,7 +114,7 @@ This API is developed to fulfill submission of Learn to Create Back-End Apps for
 <!-- 4. Update Book -->
 # 4. Update Book
  
-### Request : 
+ Request : 
 - Method : PUT
 - Endpoint : /books/{bookId}
 - Body Request:
@@ -141,7 +141,7 @@ This API is developed to fulfill submission of Learn to Create Back-End Apps for
 <!-- 5. Delete Book -->
 # 5. Delete Book
  
-### Request : 
+ Request : 
 - Method : DELETE
 - Endpoint : /books/{bookId}
 - Body Response Example:
@@ -151,5 +151,3 @@ This API is developed to fulfill submission of Learn to Create Back-End Apps for
     "message": "Buku berhasil dihapus"
 }
 ```
-
-## 
